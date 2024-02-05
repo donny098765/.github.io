@@ -1,0 +1,14 @@
+body {
+    background-image: url(../img/IMG_20220806_112638\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 300px;
+    background-color: silver;
+    margin-top: 305px;
+    font-family: Arial, sans-serif;
+    color: aquamarine;
+}
+
+footer {
+    margin-top: 18em;
+}
+

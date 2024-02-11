@@ -1,9 +1,18 @@
+#welcome {
+    position: absolute;
+    top: 11%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 2em;
+}
+
 body {
     background-image: url(../img/IMG_20220806_112638\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: 200px 300px;
     background-color: silver;
-    margin-top: 305px;
+    margin-top: 325px;
     font-family: Arial, sans-serif;
     color: aquamarine;
 }

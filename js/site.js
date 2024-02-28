@@ -5,13 +5,19 @@ const isAfternoon = hours >= 12 && hours < 17 // is it afternoon?
 const isEvening = hours >= 17 || hours < 4 // is it evening?
 
 // Select the div with id "welcome"
-const welcomeDiv = document.getElementById('welcome');
+const welcomeDiv = document.getElementById('welcome')
 
 // Check the time of day and set the welcome message accordingly
 if (isMorning) {
-    welcomeDiv.innerHTML = 'Good morning! Welcome to my website.';
+    welcomeDiv.innerHTML = 'Good morning! Welcome to my website.'
 }   else if (isAfternoon) {
-    welcomeDiv.innerHTML = 'Good afternoon! Welcome to my website.';
+    welcomeDiv.innerHTML = 'Good afternoon! Welcome to my website.'
 }   else if (isEvening) {
-    welcomeDiv.innerHTML = 'Good evening! Welcome to my website.';
+    welcomeDiv.innerHTML = 'Good evening! Welcome to my website.'
 }
+
+// The secret message
+const secretMessage = "Hey! Listen!."
+
+// Add the secret message to localStorage
+localStorage.setItem("It's a secret to everybody.", secretMessage)
